@@ -3,7 +3,7 @@ import './Css/App.css';
 
 function App() {
   return (
-    <h1>Paginação React</h1>
+  	<h1>Paginação React</h1>
   );
 }
 
