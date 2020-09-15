@@ -1,6 +1,8 @@
 import React, {Fragment} from 'react';
 import Card from "./Componentes/Card.jsx";
 import Main from "./Componentes/Main.jsx";
+import Footer from "./Componentes/footer.jsx";
+
 
 function App() {
   return (
@@ -19,7 +21,10 @@ function App() {
             resumo="Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar."
           />
         </div>
+       
+       <Footer />
     </Fragment>
+    
   );
 }
 
