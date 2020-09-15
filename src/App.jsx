@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Card from "./Componentes/Card.jsx";
-import Main from "./Componentes/Main.jsx";
+import Header from "./Componentes/Header.jsx";
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
@@ -26,7 +26,7 @@ function App() {
   const classes = useStyles();
   return (
     <Fragment>
-        <Main />
+        <Header />
         <Box p={2} bgcolor="background.paper">
         </Box>
         <h5 className={classes.text} style={{ fontFamily: 'Quando', color:'GrayText' }}>Livros</h5>
@@ -48,7 +48,6 @@ function App() {
         </Box>
        <Footer />
     </Fragment>
-    
   );
 }
 

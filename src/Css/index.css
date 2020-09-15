@@ -19,8 +19,8 @@ body, h1, h2, h3, ul, li, p {
 }
 
 h1, h2, h3 {
+  font-size: 1em;
   font-weight: normal;
-  padding-top: 20px;
 }
 
 ul {
