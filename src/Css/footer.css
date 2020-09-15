@@ -31,7 +31,7 @@ footer li a {
 }
 
 footer li a:hover {
-    background-color: #28A;
+    color: #28A;
 }
 
 footer li > span::after {
