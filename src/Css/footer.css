@@ -9,22 +9,29 @@ footer {
 footer h1 {
     margin: 0 0 15px;
     font-size: 24px;
-    color: #F8F8F8;
+    font-family: 'Quando', serif;
+    color: #28A;
     letter-spacing: 1.5px;
 }
 
 footer li {
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Poly', serif;
     color: #F8F8F8;
 }
 
 footer li a {
     padding: 8px;
     font-size: 16px;
+    font-family: 'Poly', serif;
     text-decoration: none;
     color: #F8F8F8;
     display: inline-block;
+}
+
+footer li a:hover {
+    background-color: #28A;
 }
 
 footer li > span::after {
