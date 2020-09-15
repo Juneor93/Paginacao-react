@@ -5,6 +5,7 @@ import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
 import './Css/index.css';
+import Footer from './Componentes/footer.jsx';
 
 const useStyles = makeStyles(() =>
   createStyles({
@@ -43,7 +44,11 @@ function App() {
             resumo="Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar. Melhor livro sobre leite e mel que você vai encontrar."
           />
         </div>
+        <Box p={2} bgcolor="background.paper">
+        </Box>
+       <Footer />
     </Fragment>
+    
   );
 }
 
