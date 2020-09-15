@@ -7,9 +7,10 @@ export default function Main() {
     <>
     <div className="navbar">
         <h1>LIVRARIA ACME</h1>
-        <div className="bgintro">
-            <img src={Bgintro} alt="foto biblioteca" />
-        </div>
+        <figure id="container">
+            <img src={Bgintro} className="Bgintro" alt="foto biblioteca" />
+            <p>Encontre os livros que tanto busca com quem melhor entende do assunto</p>
+        </figure>
     </div>
     </>
   );

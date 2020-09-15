@@ -1,5 +1,42 @@
 .navbar{
+    width: 100vw;
+    height: 50vh;
     background-color: #121F1F;
     color: #66AAFF;
     text-align: center;
+    font-family: Quando;
+    font-size: 18px;
 }
+
+div.navbar{
+    margin-left: 0;
+}
+
+#container {
+    display: inline-block;
+    position: relative;
+    background-size:cover;
+  }
+  
+  #container p {
+    position: absolute;
+    top: 100px;
+    padding-right: 110px;
+    padding-left: 110px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    text-align: center;
+    font-family: Poly;
+    font-style: italic;
+    font-size: 28px;
+    color: #FFFFFF;
+  }
+
+  .Bgintro{
+    width: 113.8%;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+  }
+
+ 
