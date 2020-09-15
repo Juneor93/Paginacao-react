@@ -1,3 +1,11 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poly:ital@0;1&family=Quando&display=swap');
+
+/*
+* font-family: 'Poly', serif;
+* font-family: 'Quando', serif;
+*/
+
 /* Reset de estilos */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -5,7 +13,7 @@
   box-sizing: border-box;
 }
 
-body, h1, h2, h3, ul, li {
+body, h1, h2, h3, ul, li, p {
   margin: 0;
   padding: 0;
 }
@@ -88,11 +96,3 @@ img {
       margin-right: 0;
   }
 }
-
-/* Fontes */
-@import url('https://fonts.googleapis.com/css2?family=Poly:ital@0;1&family=Quando&display=swap');
-
-/*
-* font-family: 'Poly', serif;
-* font-family: 'Quando', serif;
-*/
