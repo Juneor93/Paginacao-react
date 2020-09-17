@@ -1,0 +1,104 @@
+{
+  "book1": [
+  {
+      "id": 1,
+      "title": "Gunsmith Cats - Burst vol. 01",
+      "authors": "Kenichi Sonoda",
+      "description": "Rally Vincent e Minnie May. Elas podem parecer duas garotas comuns, mas na verdade são duas famosas mercenárias armadas e perigosas. A dupla estrela Gunsmith Cats Burst, grande sucesso dos mangás e animes que marcou época criado por Kenichi Sonoda. A história retoma as aventuras de Rally e Minnie. Donas da loja de armas Gunsmith Cats na cidade de Chicago, nos Estados Unidos, elas são conhecidas no submundo como as mais eficazes mercenárias em atividade. A dupla usa toda a sua habilidade e conhecimento em armas e explosivos para trabalhos sujos que vão desde capturar criminosos até colocar chefões da máfia atrás das grades.",
+      "thumbnail": "http://books.google.com/books/content?id=l7rEDwAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73KG50sZ8FEnResd2J8S7_mRKvExKRj8-5KUao6vwazfrP4V333Mg8_e-9v_ga1bOJHOADOh8vEkRWkmH7MMwCGISlJYwnAfLDkLDsR23Dje8Ak6PUk_D3LAi7l1qchK8bLbBzs&source=gbs_api"
+  }
+], 
+
+"book2": 
+[
+  {
+      "id": 2, 
+      "title": "Cats",
+      "description": "An inside look at cat habits and behavior with lively black and white drawings.",
+      "thumbnail": "http://books.google.com/books/content?id=RsaCcEXvE-IC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE702yG9mNb6g3DeGBEegN2cQ5oE-NQyCMk_FzS2Qo0QcpeWyDfR0t8s18sL7kGi7RcqHYhFXI-c8Qm53S7irnJbGdfaxoqj69gByUuyIqm327dqUVat9QYKnbN-PEnmxILE_FX3i&source=gbs_api"
+  }
+],
+
+"book3":
+[
+  {
+    "id": 3,
+    "title": "Why Do Cats Bury Their Poop?",
+    "authors": "Margaret H. Bonham e D. Caroline Coile",
+    "description": "This isn’t just another cat care book! It’s a virtual owner’s manual packed with little-known and entertaining facts presented by two acclaimed experts--all in answer to more than 200 unique questions about the fabulous feline. Broken down into categories, including Behavior, Bodies, and Emotions, it covers everything that cat lovers need to know: Why do cats purr? Do they get embarrassed? Are all white cats deaf? Can a litter have more than one father? Do cats have favorite colors of food? And, finally, there’s an answer to the pressing query that all feline fans have asked for years: Why do cats seek out the one person in the room who doesn’t like them? Although the tone is lighthearted, the information is valuable...and absolutely scientifically accurate.",
+    "thumbnail": "http://books.google.com/books/content?id=UbhoOXySYewC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73wG1aGTPGd4YlhJZk2CPaVWcm8gDPYmHGqe-ja7fAwNvt0DUOvgxpH0sS6sEIBpecCRzrNv5ikmLZEwzW08qPnAH89A496kHTHpdh2z9janeALgD1yr3eKMd9gngW2agfxUCFi&source=gbs_api"
+  }
+],
+  "book4": [
+    {
+    "id": 4,
+    "title": "Dr. Pitcairn's Complete Guide to Natural Health for Dogs & Cats",
+    "authors": "Richard H. Pitcairn",
+    "description": "Dr. Pitcairn's Complete Guide to Natural Health for Dogs &amp; CatsSecond EditionNow completely updated and revised, this is an expanded edition of the classic natural pet-care book by veterinarian Richard H. Pitcairn and his wife Susan Pitcairn-- both renowned specialists in chemical-free nutrition, treatment and natural healing for pets. Written with the warmth and compassion that have won the Pitcairns a nationwide following, this guide will help you select the most compatible dog or cat for your own lifestyle-- and show you how to provide the very best in companionship, healing, nutrition and lifelong care. Since its publication more than a decade ago, the Pitcairns' book has become the definitive guide to a natural lifestyle for dogs and cats.A comprehensive, thorough reference, this pet-lover's companion will tell you:* How to choose a healthy animal* Dozens of recipes for delicious, economical, healthful pet food-- with completely updated tables, charts and nutritional guidelines* How to give your pet a checkup* What's really in pet foods-- and which ones to avoid to ensure your pet's best health* Special diets for special pets* A guide to handling emergencies that includes techniques for external heart massage, artificial respiration and control of bleeding. PLUS: An in-depth, alphabetical Quick Reference: section that gives specific instructions for preventing, diagnosing and treating a wide variety of animal diseases and disorders-- from abscesses, allergies and behavior problems to vaccination risks, weight problems and worms. The Pitcairns' approach is drug-free and holistic-- with special attention to homeopathic and alternative remedies and treatments.",
+    "thumbnail": "http://books.google.com/books/content?id=YSKQngJJBcMC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71Ig2r2BNdhVj8pH3wEJey1n1FVgRnv8ZxgBFg_9eHWM9pL9HsX5TwNzZmbrQO8gBMAah774XY5BPYqduZV2j38cvO6Jy-MNtPOucv_yuWgLsSL4N-jeXWwA9gwXB9CZw87g2A4&source=gbs_api"
+    
+  }
+],
+
+ "book5": [
+    {
+    "id": 5,
+    "title": "Persian Cats",
+    "authors": "Jennifer Quasha",    
+    "description": "Cats are the most popular pets in America today, and kids love reading about their furry friends. From the strange to the everyday, this series has it all! Books on the Sphynx and the Manx discuss some of the most unusual breeds, while a book on shorthaired cats tells the history of non-pedigreed cats in America. Your students will love finding out more about the history and inherited traits of the pets they have at home.",
+    "thumbnail": "http://books.google.com/books/content?id=SZkNsP7brm8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73odiOC0K-eL9BXKdxfHmee3PMPwinfpajvZuTx9lo4QGvz1hbqvyCuUBK8_BiQwvKh6XT2Oam1jmnTlybJ7Pvp30s9aYq8Je_8aiCI0ufrm5SunT2IlDkXfnGKe6jOSZJwFtxZ&source=gbs_api"
+  }],
+
+  "book6": [
+  {
+    "id": 6,
+    "title": "The Welfare of Cats",
+    "authors": "Irene Rochlitz",
+    "description": "Animal welfare is attracting increasing interest worldwide, but particularly from those in developed countries, who now have the knowledge and resources to be able to offer the best management systems for their farm animals, as well as potentially being able to offer plentiful resources for companion, zoo and laboratory animals. The increased attention given to farm animal welfare in the West derives largely from the fact that the relentless pursuit of financial reward and efficiency has led to the development of intensive animal production systems, that challenge the conscience of many consumers in those countries. In developing countries human survival is still a daily uncertainty, so that provision for animal welfare has to be balanced against human welfare. Welfare is usually provided for only if it supports the output of the animal, be it food, work, clothing, sport or companionship. In reality, there are resources for all if they are properly husbanded in both developing and developed countries. The inequitable division of the world’s riches creates physical and psychological poverty for humans and animals alike in all sectors of the world. Livestock are the world’s biggest land user (FAO, 2002) and the population is increasing rapidly to meet the need of an expanding human population. Populations of farm animals managed by humans are therefore increasing worldwide, and there is the tendency to allocate fewer resources to each animal. Increased attention to welfare issues is just as evident for companion, laboratory, wild and zoo animals.",
+    "thumbnail": "http://books.google.com/books/content?id=0HmB3ix5IQ8C&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE71qnZRdP4gEL5CiYbH2W1PNOOOOncPl-732Irza22aVjWv-ZbXmX2p44izjOrzt2CU7y5AGJF_8_kwgYDwMTKY4X2ESbG57zqJU_pw2tQ6pXXG0UrjNkINfSDYU-6NUhufMWq2n&source=gbs_api"
+  }
+],
+  "book7": [
+    {
+    "id": 7,
+    "title": "Cats",
+      "authors": "Christina Wilsdon",
+      "description": "Did you know that the most popular pet in the United States is the cat? Cat lovers know why—these beautiful animals are great companions who can also be very independent.  Learn all about these favorite pets and how they are similar to their big cat ancestors.",
+      "thumbnail": "http://books.google.com/books/content?id=iBYNKr9IKmQC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE724qjXqnguft51rwoRKKoxEJisdFCK6IB5-IKeP05FYzwOPu7jRV652WiK0d95itsc_UC9n4rqdHRjnCXWzcHzghTmXs3Jj5w9oszp_KbrCQJZ3cZeAuw7VNO_GJfbkLC2GA1w3&source=gbs_api"  
+      }
+    ],
+    
+  "book8":[
+    {
+    "id": 8,
+    "title": "Nutrient Requirements of Dogs and Cats",
+    "authors": [
+      "National Research Council",
+      "Division on Earth and Life Studies",
+      "Board on Agriculture and Natural Resources",
+      "Committee on Animal Nutrition",
+      "Subcommittee on Dog and Cat Nutrition"
+    ],
+    "description": "Updating recommendations last made by the National Research Council in the mid-1980s, this report provides nutrient recommendations based on physical activity and stage in life, major factors that influence nutrient needs. It looks at how nutrients are metabolized in the bodies of dogs and cats, indications of nutrient deficiency, and diseases related to poor nutrition. The report provides a valuable resource for industry professionals formulating diets, scientists setting research agendas, government officials developing regulations for pet food labeling, and as a university textbook for dog and cat nutrition. It can also guide pet owners feeding decisions for their pets with information on specific nutrient needs, characteristics of different types of pet foods, and factors to consider when feeding cats and dogs.",
+    "thumbnail": "http://books.google.com/books/content?id=aqeCwxbRWvsC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE708FDnBuTcRhHhIqDujIgSmTtD286naF7iEOc35cicv_ykURZIaA7UHm0h1fEI6FAQdssmCoBq90jcZng1QLlLsfQ061-dq1ty8srBGdiKGF8vi1W4wyA04yAbc730A4S2Stcy9&source=gbs_api"
+  }
+],
+  "book9": [
+    {
+    "id": 9,
+    "title": "Cancer in Dogs and Cats",
+    "authors": "Wallace B. Morrison",
+    "description": "This is the second edition of a book originally published by Lippincott, Williams & Wilkins. Cancer in Dogs and Cats, 2nd edition, has been completely updated and revised to provide the clinician with all the tools needed to properly diagnose and manage treatable cancers in dogs and cats. The presentation is a practical blend of basic science and both medical and surgical therapeutics designed to help the clinician make the difficult decisions inherent with cancer treatment. An entirely new and comprehensive index is provided, which allows precise and easy access to the content of the book.",
+    "thumbnail": "http://books.google.com/books/content?id=-LB3EUeg4okC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73HeMuKEL_1XFkW8zcT4U3LhFPz8uVvxVb8WatfIwAYmf6GpxjXaeQBcWNN7j5aW9pMrXBFe7J8Iy4Ut56PHrIU-8yGrOlclm2s4kbct7xheSej_N_Da9-WoY8vVSHVso9SnZNB&source=gbs_api"
+  }
+],
+  "book10": [
+    {
+    "id": 10,
+    "title": "Cats",
+    "authors": "Rebecca Stefoff",
+    "description": "Describes the evolution, body structure, and behavior of cats, and discusses their interaction with people.",
+    "thumbnail": "http://books.google.com/books/content?id=z6JKO4C3tUQC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE73MYUtyTNx9u0AkWCjnyXQnSiGuSJKXxbVNFZAcmxHNU-fvl9ENr34jjFqGgLv_aPi76bCzDMLpgw6UhpEYjEpTpFnfgPlUIU1xBB60sOm1FdMfOFx9NBqofgOt9ZYz1p5ERDeR&source=gbs_api"
+    }
+  ]
+}
