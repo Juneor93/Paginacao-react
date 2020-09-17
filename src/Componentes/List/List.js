@@ -1,57 +1,73 @@
-import React, {useState, useEffect} from 'react';
-import Card from '../Card';
-
+import React, { useState, useEffect } from 'react';
+import Card from "../Card.jsx";
+import Condicional from "../Condicional.jsx";
+import "../../Css/Main.css";
 
 export default function List() {
-  const [cards, setCards] = useState([]);
-  const [page, setPage] = useState([1]);
-  const [totalPage, setTotalPage] = useState([0]);
-  const [cardsPage, setCardsPage] = useState([5]);
-  const [loading, setLoading] = useState(true);
+  const [dados, setDados] = useState([]);
+  const [pagina, setPagina] = useState(1);
+  const [totalPaginas, setTotalPaginas] = useState(2);
+  const [paginaLivro, setPaginaLivro] = useState(3);
+  const [isCarregando, setIsCarregando] = useState(true);
 
-  useEffect(()=>{
-    getCards();
-  },[page]);
+  const buscarDados = async (url, config) => {
+    try {
+      const req = await fetch(url, config);
+      setTotalPaginas(req.headers.get("X-Total-Count") / paginaLivro);
+      const json = await req.json();
 
-  useEffect(()=>{
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  },[loading]);
-
-  function handleScroll(){
-    if(window.innerHeight + document.documentElement.scrollTop < 
-      document.documentElement.offsetHeight || 
-      page === totalPage || loading
-      ){
-      return;
+      setDados([ ...dados,...json]);
+      setIsCarregando(false);
+    } catch (e) {
+      console.log(e.message);
     }
-    setPage(page + 1);  
   }
 
-function getCards(){
-  setLoading(true);
-  fetch(` http://localhost:3001/book?_page=${page}&_limit=${cardsPage}`,{
-    method: "GET"
-  }) 
-      .then(response => {
-        setTotalPage(response.headers.get("X-Total-Count") / cardsPage);
-        return response.json();
-      })        
-        .then(data => {
-        setCards([...cards, ...data]);
-        setLoading(false);
-      });
-}
+  const manipularScroll = () => {
+    const altura = window.innerHeight + document.documentElement.scrollTop;
+    const posicao = document.documentElement.offsetHeight - 70;
+    const isPagina = pagina === totalPaginas;
+
+    if(altura < posicao || isPagina || isCarregando) {
+      return;
+    }
+
+    setPagina(pagina + 1);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", manipularScroll);
+    return () => window.removeEventListener("scroll", manipularScroll);
+  });
+
+  useEffect(() => {
+    buscarDados(`http://localhost:3001/livros?_page=${pagina}&_limit=${paginaLivro}`, {method: "GET"});
+  }, [pagina]);
 
   return (
-    <div className="cards">
-      {cards.map(dados => (
-        <Card dados={dados}/>
-      ))}  
+    <main className="Main container">
+      <h1 className="col-12">Livro</h1>
 
-
-        {loading && page > 1 && <img width="20" src={'img/imgLoading.gif'}/>}
-    </div>   
+      <ul className="col-12">
+        {dados.map((item) => (
+          <li key={item.id}>
+            <Card 
+            img={item.thumbnail} 
+            titulo={item.title} 
+            autor={item.authors} 
+            resumo={item.description}
+            link={item.link}/>
+          </li>
+        ))}
+      </ul>
+      
+      <Condicional condicao={isCarregando}>
+          <div className="box-anima">
+              <div className="bolinha-anima"></div>
+              <div className="bolinha-anima"></div>
+              <div className="bolinha-anima"></div>
+          </div>
+      </Condicional>
+    </main>
   );
 }
-
